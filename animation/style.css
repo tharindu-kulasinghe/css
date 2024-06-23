@@ -1,0 +1,73 @@
+/* Resetting default margin and padding to zero for all elements */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Styling the container to occupy the entire viewport height and center its content */
+.content {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Defining keyframes animation1 */
+@keyframes animation1 {
+    0% {
+        transform: translateX(-200px) translateY(-200px); /* Moving the box to the top left corner */
+        background-color: red; /* Changing the background color to red */
+    }
+
+    25% {
+        transform: translateX(200px) translateY(-200px); /* Moving the box to the top right corner */
+        background-color: blue; /* Changing the background color to blue */
+    }
+
+    50% {
+        transform: translateX(200px) translateY(200px); /* Moving the box to the bottom right corner */
+        background-color: green; /* Changing the background color to green */
+    }
+
+    75% {
+        transform: translateX(-200px) translateY(200px); /* Moving the box to the bottom left corner */
+        background-color: rgb(151, 42, 165); /* Changing the background color to a custom color */
+    }
+
+    100% {
+        transform: translateX(-200px) translateY(-200px); /* Moving the box back to the top left corner */
+        background-color: red; /* Changing the background color back to red */
+    }
+}
+
+/* Styling the box element */
+.box {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(60, 255, 0); /* Setting the initial background color */
+
+    /* Applying the animation */
+    animation-name: animation1; /* Specifying the name of the animation */
+    animation-duration: 5s; /* Setting the duration of the animation to 5 seconds */
+    animation-timing-function: ease; /* Setting the timing function to ease */
+
+    /* Setting the number of times the animation should repeat */
+    animation-iteration-count: 5; /* Repeating the animation 5 times */
+    animation-iteration-count: infinite; /* Repeating the animation infinitely */
+
+    /* Setting the direction of the animation */
+    animation-direction: alternate; /* Alternating the direction of the animation */
+    animation-direction: alternate-reverse; /* Alternating the direction of the animation in reverse */
+    animation-direction: reverse; /* Playing the animation in reverse */
+    animation-direction: normal; /* Playing the animation as normal */
+
+    animation-delay: 0s; /* Adding a delay of 0 seconds before starting the animation */
+
+    /* Setting the fill mode for the animation */
+    animation-fill-mode: backwards; /* Applying the animation styles to the element before the animation starts */
+    animation-fill-mode: both; /* Applying the animation styles to the element before and after the animation */
+    
+    /* Shorthand notation for animation properties */
+    animation: animation1 5s ease 5 infinite alternate-reverse 0s backwards;
+}
