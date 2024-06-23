@@ -1,11 +1,17 @@
-:root{
+:root {
+    /* Defines a custom property for text color with a gray value */
     --text-color: #707070;
+    /* Defines a custom property for font family with the value "sans-serif" */
     --font-family: sans-serif;
+    /* Defines a custom property for text size with a value of 16 pixels */
     --text-size: 16px;
 }
 
-p{
+p {
+    /* Uses the custom property for text color */
     color: var(--text-color);
+    /* Uses the custom property for font family */
     font-family: var(--font-family);
+    /* Uses the custom property for text size */
     font-size: var(--text-size);
 }
