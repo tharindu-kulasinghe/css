@@ -2,24 +2,40 @@
     Setting background color with different formats 
 */
 .background-color {
-    width: 200px; /* Adjust width as needed */
-    height: 200px; /* Adjust height as needed */
+    /* Adjust width as needed */
+    width: 200px;
+    /* Adjust height as needed */
+    height: 200px;
 
-    background-color: red; /* Setting background color as red */
-    background-color: rgb(0, 0, 0); /* Setting background color using RGB values (black) */
-    background-color: #404040; /* Setting background color using HEX value (#404040) */
+    /* Setting background color as red */
+    background-color: red;
+    /* Setting background color using RGB values (black) */
+    background-color: rgb(0, 0, 0);
+    /* Setting background color using HEX value (#404040) */
+    background-color: #404040;
+    /* Sets the background color to the current text color */
+    background-color: currentColor;
+    /* Overrides the previous rule, making the background color transparent */
+    background-color: transparent;
 }
 
 /* 
     Setting background image with various properties 
 */
 .background-image {
-    width: 200px; /* Adjust width as needed */
-    height: 200px; /* Adjust height as needed */
+    /* Adjust width as needed */
+    width: 200px;
+    /* Adjust height as needed */
+    height: 200px;
 
-    background-image: url("./image.jpg"); /* Setting background image from a file path */
-    background-size: cover; /* Ensures the background image covers the entire container */
-    background-position: center; /* Centers the background image within the container */
-    background-repeat: no-repeat; /* Prevents the background image from repeating */
-    background-attachment: scroll; /* Sets the background image to scroll with the content */
+    /* Setting background image from a file path */
+    background-image: url("./image.jpg");
+    /* Ensures the background image covers the entire container */
+    background-size: cover;
+    /* Centers the background image within the container */
+    background-position: center;
+    /* Prevents the background image from repeating */
+    background-repeat: no-repeat;
+    /* Sets the background image to scroll with the content */
+    background-attachment: scroll;
 }

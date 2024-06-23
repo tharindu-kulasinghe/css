@@ -1,0 +1,54 @@
+a[target="_blank"] {
+    /* Sets the text color to red for links that open in a new window or tab */
+    color: red;
+    /* Removes the underline from these links */
+    text-decoration: none;
+}
+
+a[target="_parent"] {
+    /* Sets the text color to blue for links that open in the parent frame */
+    color: blue;
+    /* Underlines these links */
+    text-decoration: underline;
+}
+
+a[target="_self"] {
+    /* Sets the text color to green for links that open in the same frame */
+    color: green;
+    /* Makes the text bold for these links */
+    font-weight: bold;
+}
+
+a[target="_top"] {
+    /* Sets the text color to orange for links that open in the topmost frame */
+    color: orange;
+    /* Makes the text italic for these links */
+    font-style: italic;
+}
+
+[class|="top"] {
+    /* Applies a yellow background to elements with class names that start with "top" followed by a hyphen (-), e.g., "top-header" */
+    background: yellow;
+}
+
+[class^="top"] {
+    /* Applies a yellow background to elements with class names that start with "top", e.g., "top", "top-header" */
+    background: yellow;
+}
+
+[class$="test"] {
+    /* Applies a yellow background to elements with class names that end with "test", e.g., "mytest", "yourtest" */
+    background: yellow;
+}
+
+[class*="te"] {
+    /* Applies a yellow background to elements with class names that contain "te" anywhere in the name, e.g., "test", "late" */
+    background: yellow;
+}
+
+input[type="text"] {
+    /* Removes the default outline from text input fields */
+    outline: none;
+    /* Sets the background color of text input fields to red */
+    background-color: red;
+}
