@@ -1,0 +1,11 @@
+:root{
+    --text-color: #707070;
+    --font-family: sans-serif;
+    --text-size: 16px;
+}
+
+p{
+    color: var(--text-color);
+    font-family: var(--font-family);
+    font-size: var(--text-size);
+}
