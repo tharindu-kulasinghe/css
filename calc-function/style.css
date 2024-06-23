@@ -1,0 +1,6 @@
+.box{
+    width: calc((100% / 2) - 200px);
+    height: 100px;
+    background-color: red;
+    margin-top: calc(20px / 7px);
+}

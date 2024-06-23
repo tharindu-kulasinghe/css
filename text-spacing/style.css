@@ -1,0 +1,20 @@
+/* Styling <p> elements with text formatting */
+p {
+    /* Indents the first line of text by 10 pixels */
+    text-indent: 10px;
+
+    /* Adjusts spacing between characters to -2 pixels (overrides next) */
+    letter-spacing: -2px;
+    /* Adjusts spacing between characters to 5 pixels */
+    letter-spacing: 5px;
+
+    /* Sets the line height to 1.8 times the font size */
+    line-height: 1.8;
+
+    /* Adjusts spacing between words to 5 pixels */
+    word-spacing: 5px;
+
+    /* Prevents wrapping of text to the next line */
+    white-space: nowrap;
+
+}

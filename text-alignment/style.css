@@ -1,0 +1,22 @@
+/* Styling <p> elements with text alignment */
+p {
+
+    /* Setting text alignment to center */
+    text-align: center;
+    /* Overriding previous text alignment to left */
+    text-align: left;
+    /* Overriding previous text alignment to right */
+    text-align: right;
+    /* Setting text alignment to justify */
+    text-align: justify;
+}
+
+p {
+    /* Setting alignment of the last line to right */
+    text-align-last: right;
+    /* Overriding previous alignment of the last line to center */
+    text-align-last: center;
+    /* Setting alignment of the last line to justify */
+    text-align-last: justify;
+}
+

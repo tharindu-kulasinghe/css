@@ -1,0 +1,36 @@
+/* Styling <p> elements with text decoration */
+p {
+    /* Setting text decoration to overline */
+    text-decoration-line: overline;
+    /* Overriding previous text decoration to line-through */
+    text-decoration-line: line-through;
+    /* Overriding previous text decoration to underline */
+    text-decoration-line: underline;
+    /* Setting multiple text decorations */
+    text-decoration-line: overline underline;
+
+    /* Setting text decoration color to green */
+    text-decoration-color: green;
+
+    /* Setting text decoration style; each declaration overrides the previous one */
+    text-decoration-style: solid;
+    text-decoration-style: double;
+    text-decoration-style: dotted;
+    text-decoration-style: dashed;
+    text-decoration-style: wavy;
+
+    /* Setting text decoration thickness to automatic */
+    text-decoration-thickness: auto;
+    /* Setting text decoration thickness to 25% of the font size */
+    text-decoration-thickness: 25%;
+    /* Setting text decoration thickness to 5 pixels */
+    text-decoration-thickness: 5px;
+
+    /* Shorthand for setting text decoration properties */
+    /* Setting underline, color red, double style, and 5px thickness */
+    text-decoration: underline red double 5px;
+
+    /* Removing text decoration */
+    text-decoration: none;
+
+}

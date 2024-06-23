@@ -1,0 +1,59 @@
+/* Set initial box dimensions and background color */
+.box {
+    width: 200px;
+    height: 200px;
+    background-color: red;
+}
+
+/* Set padding using shorthand notation */
+.box {
+    /* These will be overridden by the last declaration (padding: 40px;) */
+    padding-top: 10px;
+    padding-left: 29px;
+    padding-right: 60px;
+    padding-bottom: 20px;
+    
+    /* This overrides the previous individual padding declarations */
+    padding: 30px 50px;
+    
+    /* This overrides the previous shorthand padding declaration */
+    padding: 40px;
+}
+
+/* Set margin using shorthand notation */
+.box {
+    /* These will be overridden by the last declaration (margin: 30px;) */
+    margin-top: 20px;
+    margin-right: 10px;
+    margin-bottom: 30px;
+    margin-left: 10px;
+    
+    /* This overrides the previous individual margin declarations */
+    margin: 10px 20px;
+    
+    /* This overrides the previous shorthand margin declaration */
+    margin: 30px;
+}
+
+/* Set border properties */
+.box {
+    /* Set border width and color */
+    border-width: 5px;
+    border-color: green;
+
+    /* Set multiple border styles (only the last one will apply) */
+    border-style: solid;
+    border-style: dotted;
+    border-style: double;
+    border-style: dashed;
+    border-style: outset;
+
+    /* Shorthand for border width, style, and color */
+    border: 5px solid black;
+
+    /* Set specific borders with different colors */
+    border-top: 4px solid rgb(0, 17, 255);
+    border-right: 4px solid rgb(51, 255, 0);
+    border-bottom: 4px solid rgb(255, 0, 170);
+    border-left: 4px solid rgb(255, 174, 0);
+}

@@ -1,0 +1,17 @@
+.box {
+    /* Sets the width to 300 pixels */
+    width: 300px;
+    /* Sets the height to 300 pixels */
+    height: 300px;
+    /* Centers the box horizontally and vertically */
+    margin: auto;
+
+    background-color: red;
+
+    /* Overrides the box model to use flexbox */
+    display: flex;
+    /* Centers content horizontally within the flex container */
+    justify-content: center;
+    /* Centers content vertically within the flex container */
+    align-items: center;
+}

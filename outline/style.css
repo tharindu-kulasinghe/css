@@ -1,0 +1,24 @@
+/* Styling <p> elements with outlines */
+p {
+    /* Setting the width of the outline to 5 pixels */
+    outline-width: 5px;
+
+    /* Setting the color of the outline to red */
+    outline-color: red;
+
+    /* Setting the style of the outline; each declaration overrides the previous one */
+    outline-style: dotted;
+    outline-style: dashed;
+    outline-style: solid;
+    outline-style: double;
+    outline-style: groove;
+    outline-style: ridge;
+    outline-style: inset;
+    outline-style: outset;
+
+    /* Setting the offset of the outline from the border edge to 2 pixels */
+    outline-offset: 2px;
+
+    /* Shorthand for setting outline properties */
+    outline: 5px solid black 2px;
+}

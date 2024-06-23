@@ -1,0 +1,25 @@
+/* 
+    Setting background color with different formats 
+*/
+.background-color {
+    width: 200px; /* Adjust width as needed */
+    height: 200px; /* Adjust height as needed */
+
+    background-color: red; /* Setting background color as red */
+    background-color: rgb(0, 0, 0); /* Setting background color using RGB values (black) */
+    background-color: #404040; /* Setting background color using HEX value (#404040) */
+}
+
+/* 
+    Setting background image with various properties 
+*/
+.background-image {
+    width: 200px; /* Adjust width as needed */
+    height: 200px; /* Adjust height as needed */
+
+    background-image: url("./image.jpg"); /* Setting background image from a file path */
+    background-size: cover; /* Ensures the background image covers the entire container */
+    background-position: center; /* Centers the background image within the container */
+    background-repeat: no-repeat; /* Prevents the background image from repeating */
+    background-attachment: scroll; /* Sets the background image to scroll with the content */
+}

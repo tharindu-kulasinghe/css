@@ -1,0 +1,39 @@
+a:link {
+    /* Sets the color of unvisited links to red */
+    color: rgb(255, 0, 0);
+}
+
+a:visited {
+    /* Sets the color of visited links to green */
+    color: rgb(0, 255, 0);
+}
+
+a:hover {
+    /* Sets the color of links when hovered over to magenta */
+    color: rgb(255, 0, 255);
+}
+
+a:active {
+    /* Sets the color of links when active (being clicked) to blue */
+    color: rgb(0, 0, 255);
+}
+
+ul li:first-child {
+    /* Sets the color of the first <li> element to rebeccapurple */
+    color: rebeccapurple;
+}
+
+ul li:last-child {
+    /* Sets the color of the last <li> element to blue */
+    color: blue;
+}
+
+ul li:nth-child(3) {
+    /* Sets the color of the third <li> element to green */
+    color: green;
+}
+
+ul li:nth-last-child(3) {
+    /* Sets the color of the third <li> element from the end to yellow */
+    color: yellow;
+}

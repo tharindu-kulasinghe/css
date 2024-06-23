@@ -1,0 +1,17 @@
+.box {
+    /* Initially sets the width to 100 pixels with high importance */
+    width: 100px !important;
+    /* Sets the height to 200 pixels */
+    height: 200px;
+    background-color: red;
+}
+
+.box {
+    /* This will be overridden by the !important rule above */
+    width: 200px;
+}
+
+.box {
+    /* Finally sets the width to 100% with high importance, overriding the first !important rule */
+    width: 100% !important;
+}

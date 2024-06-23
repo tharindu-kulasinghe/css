@@ -1,0 +1,31 @@
+* {
+    /* Resets all margins to 0 */
+    margin: 0;
+    /* Resets all padding to 0 */
+    padding: 0;
+}
+
+.box-1 {
+    /* Sets the width to 100% of the viewport or containing element */
+    width: 100%;
+    /* Sets the height to 70 pixels */
+    height: 70px;
+    /* Sets the background color to a dark gray */
+    background-color: rgb(40, 40, 40);
+
+    /* Fixes the element in place relative to the viewport */
+    position: fixed;
+    /* Positions the element at the top of the viewport */
+    top: 0;
+}
+
+.box-2 {
+    /* Sets the width to 100% of the viewport or containing element */
+    width: 100%;
+    /* Sets the height to 1200 pixels */
+    height: 1200px;
+    /* Sets the background color to gray */
+    background-color: gray;
+    /* Adds a top margin of 70 pixels to offset the fixed .box-1 height */
+    margin-top: 70px;
+}

@@ -1,0 +1,6 @@
+/* Setting text color using different color formats */
+p {
+    color: red;         /* Setting text color to red using color name */
+    color: rgb(0, 0, 0); /* Setting text color using RGB values (black) */
+    color: #404040;     /* Setting text color using hexadecimal color code */
+}

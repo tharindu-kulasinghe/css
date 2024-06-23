@@ -1,0 +1,11 @@
+/* Styling <p> elements with text transformation */
+p {
+    /* Transforming text to uppercase */
+    text-transform: uppercase;
+    /* Transforming text to lowercase (overrides previous) */
+    text-transform: lowercase;
+    /* Capitalizing the first character of each word (overrides previous) */
+    text-transform: capitalize;
+    /* Overrides all previous rules, resetting text transformation to normal */
+    text-transform: none;
+}

@@ -1,0 +1,27 @@
+p::first-line {
+    /* Sets the color of the first line of a <p> element to red */
+    color: #ff0000;
+    /* Sets the font variant of the first line to small caps */
+    font-variant: small-caps;
+}
+
+p::first-letter {
+    /* Sets the color of the first letter of a <p> element to a shade of green */
+    color: #15ff00;
+    /* Sets the font size of the first letter to xx-large */
+    font-size: xx-large;
+}
+
+p::selection {
+    /* Sets the text color of selected text within a <p> element to red */
+    color: red;
+    /* Sets the background color of selected text within a <p> element to yellow */
+    background: yellow;
+}
+
+ul li::marker {
+    /* Sets the color of the marker (bullet or number) of <li> elements within <ul> to red */
+    color: red;
+    /* Sets the font size of the marker to 23 pixels */
+    font-size: 23px;
+}

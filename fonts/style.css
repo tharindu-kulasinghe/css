@@ -1,0 +1,30 @@
+p {
+    /* Sets the font size to 18 pixels */
+    font-size: 18px;
+
+    /* Sets the font weight to 600 (semi-bold) */
+    font-weight: 600;
+    /* Overrides the previous weight, setting it to 400 (normal) */
+    font-weight: 400;
+
+    /* Sets the font style to italic */
+    font-style: italic;
+    /* Overrides the previous style, setting it to normal */
+    font-style: normal;
+
+    /* Sets the font family to a generic serif type */
+    font-family: serif;
+    /* Overrides previous, setting to a generic sans-serif type */
+    font-family: sans-serif;
+    /* Overrides previous, setting to Monospace type */
+    font-family: Monospace;
+    /* Overrides previous, setting to Cursive type */
+    font-family: Cursive;
+    /* Overrides previous, setting to Fantasy type */
+    font-family: Fantasy;
+
+    /* Overrides previous, setting to Tahoma or Verdana, fallback to sans-serif */
+    font-family: Tahoma, Verdana, sans-serif;
+    /* Overrides previous, setting to Arial or Helvetica, fallback to sans-serif */
+    font-family: Arial, Helvetica, sans-serif;
+}

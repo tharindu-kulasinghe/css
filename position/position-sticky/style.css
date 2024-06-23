@@ -1,0 +1,38 @@
+* {
+    /* Resets all margins to 0 */
+    margin: 0;
+    /* Resets all padding to 0 */
+    padding: 0;
+}
+
+.box-1 {
+    /* Sets the width to 100% of the viewport or containing element */
+    width: 100%;
+    /* Sets the height to 100 pixels */
+    height: 100px;
+    /* Sets the background color to blue */
+    background-color: rgb(0, 0, 255);
+}
+
+.box-2 {
+    /* Sets the width to 100% of the viewport or containing element */
+    width: 100%;
+    /* Sets the height to 100 pixels */
+    height: 100px;
+    /* Sets the background color to green */
+    background-color: rgb(72, 255, 0);
+
+    /* Makes the element stick to the top of the viewport when scrolling */
+    position: sticky;
+    /* Specifies the top offset for the sticky positioning */
+    top: 0;
+}
+
+.box-3 {
+    /* Sets the width to 100% of the viewport or containing element */
+    width: 100%;
+    /* Sets the height to 1200 pixels */
+    height: 1200px;
+    /* Sets the background color to red */
+    background-color: rgb(255, 0, 0);
+}
